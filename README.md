@@ -3,6 +3,8 @@
 A simple and practical **Python + Streamlit web app** that helps users **track groceries and reduce food waste** by monitoring expiry dates.  
 Color-coded alerts highlight items that are **expired** or **about to expire**, encouraging smarter food usage and sustainability.
 
+👉 [Live App Demo](https://food-waste-tracker.streamlit.app)
+
 ---
 
 ## 🚀 Features
@@ -132,7 +134,6 @@ By default, Streamlit runs on:
 “I always forget what’s hiding in my fridge!
 This app helps me track expiry dates and reminds me to use up ingredients before they go bad - saving money and reducing waste.”
 
-👉 [Live App Demo](https://food-waste-tracker.streamlit.app)
 
 🧑‍💻 Author
 Razvan Epure 

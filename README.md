@@ -28,33 +28,51 @@ Color-coded alerts highlight items that are **expired** or **about to expire**, 
 
 ## 🖼 Preview
 
-*(Add a screenshot or GIF of your app here if possible!)*  
-Example:  
-![App Screenshot](screenshot.png)
+**Adding items**:  
+<img width="757" height="656" alt="image" src="https://github.com/user-attachments/assets/9e0157b6-3628-4306-be81-e055f970ffda" />
+
+**Table with items about to expire**
+<img width="936" height="191" alt="image" src="https://github.com/user-attachments/assets/c9bbe9ce-1139-4836-a8c3-8dc945f862c0" />
+
+**Table with all the items added**
+<img width="950" height="294" alt="image" src="https://github.com/user-attachments/assets/11a98c2f-f527-45ac-9d10-26174dd86a6e" />
+
+**Delete unwanted or old items**
+<img width="931" height="238" alt="image" src="https://github.com/user-attachments/assets/474fa75e-d930-49d4-81f4-63d848f6aebc" />
+
+
+
 
 ---
 
 ## 🧰 Tech Stack
 
 - **Python 3.10+**
-- **Streamlit** – for the interactive web interface  
-- **SQLite** – for local data persistence  
-- **Pandas** – for data handling and table display  
+- **Streamlit** - for the interactive web interface  
+- **SQLite** - for local data persistence  
+- **Pandas** - for data handling and table display  
 
 ---
 
 ## 🗂 Project Structure
 
-FOOD-WASTE-TRACKER/
-│
-├── app.py # Main Streamlit app
-├── db.py # Database logic (CRUD operations)
-├── requirements.txt # Project dependencies
-├── .gitignore # Files to ignore (cache, DB, etc.)
-└── README.md # This file
+FOOD-WASTE-TRACKER
 
-yaml
-Copy code
+
+- app.py # Main Streamlit app
+
+
+- db.py # Database logic (CRUD operations)
+
+
+- requirements.txt # Project dependencies
+
+
+- .gitignore # Files to ignore (cache, DB, etc.)
+
+
+- README.md # This file
+
 
 ---
 
@@ -64,38 +82,39 @@ Copy code
 ```bash
 git clone https://github.com/YOUR-USERNAME/food-waste-tracker.git
 cd food-waste-tracker
-2️⃣ Create a virtual environment (optional but recommended)
-bash
-Copy code
-python -m venv venv
-# Windows:
-venv\Scripts\activate
-# macOS/Linux:
-source venv/bin/activate
+```
+
 3️⃣ Install dependencies
-bash
-Copy code
+```bash
 pip install -r requirements.txt
+```
+
 4️⃣ Run the app
-bash
-Copy code
+```bash
 streamlit run app.py
+```
+
 5️⃣ Open in your browser
+
 By default, Streamlit runs on:
 👉 http://localhost:8501
 
-🧠 How It Works
-When you add a food item, it’s saved to a local SQLite database (fridge.db).
 
-Each time the app loads, it reads the data, computes how many days remain until expiry, and displays results in tables.
+## 🧠 How It Works
 
-Items expiring in ≤3 days are highlighted in orange.
+- When you add a food item, it’s saved to a local SQLite database (fridge.db).
 
-Expired items are highlighted in red.
+- Each time the app loads, it reads the data, computes how many days remain until expiry, and displays results in tables.
 
-You can delete items when you’ve used them or they’re no longer needed.
+- Items expiring in ≤3 days are highlighted in orange.
 
-🌟 Possible Future Improvements
+- Expired items are highlighted in red.
+
+- You can delete items when you’ve used them or they’re no longer needed.
+  
+
+## 🌟 Possible Future Improvements
+
 💡 Planned next steps:
 
 🔔 Email reminders for soon-to-expire foods
@@ -108,24 +127,20 @@ You can delete items when you’ve used them or they’re no longer needed.
 
 ☁️ User accounts or cloud sync
 
-📸 Example Use Case
-“I always forget what’s hiding in my fridge!
-This app helps me track expiry dates and reminds me to use up ingredients before they go bad — saving money and reducing waste.”
+## 📸 Example Use Case
 
-🌐 Live Demo
-If deployed on Streamlit Cloud, add your link here:
-👉 Live App Demo
+“I always forget what’s hiding in my fridge!
+This app helps me track expiry dates and reminds me to use up ingredients before they go bad - saving money and reducing waste.”
+
+👉 [Live App Demo](https://food-waste-tracker.streamlit.app)
 
 🧑‍💻 Author
-Your Name
+Razvan Epure 
 
-💼 LinkedIn
+💼 [LinkedIn](https://www.linkedin.com/in/razvan-epure-841b05231)
 
-🐙 GitHub
 
-✉️ your.email@example.com
-
-🪪 License
+## License
 This project is open-source and available under the MIT License.
 
 ⭐ If you found this project interesting, give it a star on GitHub!
